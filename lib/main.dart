@@ -36,9 +36,14 @@ class _FactsState extends State<Facts> {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.all(40.0),
+      padding: const EdgeInsets.all(20.0),
       child: Center(
         child: TextButton(
+            style: ButtonStyle(
+                overlayColor: MaterialStateProperty.all(Colors.transparent), // no splash or highlights
+               minimumSize: MaterialStateProperty.all(const Size(double.infinity, double.infinity)), // max button size
+            ),
+
             child: Text(
               facts[factNum],
               style: const TextStyle(
