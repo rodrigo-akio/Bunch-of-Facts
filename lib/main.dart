@@ -40,8 +40,8 @@ class _FactsState extends State<Facts> {
       child: Center(
         child: TextButton(
             style: ButtonStyle(
-                overlayColor: MaterialStateProperty.all(Colors.transparent), // no splash or highlights
-               minimumSize: MaterialStateProperty.all(const Size(double.infinity, double.infinity)), // max button size
+              overlayColor: MaterialStateProperty.all(Colors.transparent), // no splash or highlights
+              minimumSize: MaterialStateProperty.all(const Size(double.infinity, double.infinity)), // max button size
             ),
 
             child: Text(
