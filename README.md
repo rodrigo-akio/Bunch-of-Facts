@@ -26,10 +26,3 @@ r'The scientific term for brain freeze is “sphenopalatine ganglioneuralgia”.
 The array is imported to `main.dart` and is used in the TextButton Material Class using StatefulWidget to generate a random number and update the displayed text. 
 
 The web app demo of this project is hosted with GitHub Pages, which can be located in the `gh-pages` branch. [Peanut](https://github.com/kevmoo/peanut.dart) was used to create a branch, build, and deploy the web app in the same GitHub project.
-
-
-
-
-
-
-<p align="right">(<a href="#top">back to top</a>)</p>
