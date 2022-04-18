@@ -10,12 +10,6 @@
 </div>
 
 ## About The Project
-<div >
-<img align="left" src="https://i.imgur.com/JnbKufz.gif"  alt="Bunch of Facts GIF" width="175"/>  
-</div>
-
- <br />
-
 *Bunch of Facts* is a simple app made with Flutter that displays 1000+ random fun facts. Every time you click the page, another random fact is displayed on the screen. 
 
 The facts are stored in a string array and they are prefixed with 'r' to be used raw:
